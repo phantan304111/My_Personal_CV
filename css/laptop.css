@@ -1,0 +1,388 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "inter", sans-serif;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+section {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+/* Banner */
+.banner-img {
+  width: 100%;
+  height: 520px;
+  background: black;
+  /* filter: brightness(50%); */
+  /* height: 40%; */
+}
+#nav-bar {
+  text-align: center;
+  /* display: flex; */
+}
+#banner {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.banner-name {
+  position: absolute;
+  font-size: 36px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-title {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  color: #f1f3f5;
+  transform: translate(-50%, -50%);
+}
+/* Nav */
+.container-nav {
+  /* fle-xbox layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.container-nav {
+  background-color: white;
+  overflow: hidden;
+  /* text-align: center; */
+}
+.nav-img {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.nav-between {
+  margin: 0 24px;
+}
+.nav-between-name {
+  font-size: 32px;
+}
+.nav-between-title {
+  font-size: 16px;
+  color: #adb5bd;
+}
+.iconnav {
+  align-self: center;
+  font-size: 1.2em;
+  justify-self: end;
+  color: #199cdb;
+  margin: 12px;
+  /* display: inline-block;
+  background-color: #199cdb; */
+  /* padding: 5px 7px;
+  font-size: 1.2em;
+  border-radius: 50%; */
+}
+.container-nav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  left: 50%;
+
+  /* flex */
+}
+.container-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.container-nav a:active {
+  background-color: #199cdb;
+  color: white;
+}
+/* aabout */
+.container-personal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  justify-items: center;
+  gap: 40px;
+  /* column-gap: 75px; */
+  /* align-items: start; */
+}
+#target {
+  /* display: grid;
+  grid-column: 1 /2; */
+  justify-self: end;
+  /* width: 500px; */
+}
+.section-title {
+  margin-bottom: 40px;
+}
+#personal-info {
+}
+p {
+  line-height: 1.7;
+}
+strong {
+  line-height: 1.7;
+}
+.mt-40 {
+  list-style: none;
+}
+.icons-about {
+  margin-top: 12px;
+}
+.icon-about {
+  color: white;
+  margin: 12px;
+  display: inline-block;
+  background-color: #199cdb;
+  padding: 5px 7px;
+  font-size: 1.2em;
+  border-radius: 50%;
+}
+/* job-info */
+.job-info-container {
+  /* display: Grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 10px; */
+}
+/* gird layout - job-info  */
+.job-info-box {
+  display: Grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 100px 1fr;
+  gap: 5px;
+  border: 2px solid #e9ecef;
+  padding: 16px;
+  align-items: start;
+  align-content: start;
+}
+/* start of the boxes */
+.job-info-title {
+  align-self: center;
+  justify-self: start;
+}
+.icon {
+  align-self: center;
+  font-size: 2.4em;
+  justify-self: end;
+}
+/* Thong tin */
+.job-info-info-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.job-info-info-box {
+  line-height: 24px;
+  grid-column: 1 /-1;
+  align-self: start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.job-info-info-name {
+  font-weight: bold;
+}
+.job-info-info-time {
+  color: #adb5bd;
+  display: inline-block;
+}
+.job-info-info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.highlight {
+  display: inline-block;
+  margin-left: 6px;
+  background-color: #199cdb;
+  color: #ffffff;
+  padding: 2px 18px;
+  /* border: 2px solid #199cdb; */
+  border-radius: 30%;
+}
+/* Grid so thich */
+.job-info-hobby {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100px;
+  grid-row: repeat(2, 1fr);
+  /* align-items: center; */
+
+  /* justify-self: space-between; */
+}
+.hobbyicon {
+  width: 48px;
+  height: 48px;
+  padding: 4px;
+  stroke: #339af0;
+  justify-self: center;
+  border: 3px solid #339af0;
+  border-radius: 50%;
+}
+.hobby-text {
+  justify-self: center;
+  color: #868e96;
+}
+/* Ngon ngu */
+.skill {
+  list-style: none;
+  /* font-weight: 500; */
+}
+.skill-level {
+  display: flex;
+  list-style: none;
+}
+.level-grey {
+  background: #e9ecef;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.level {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+/* Chung chi */
+.container-certificate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+.certificate-box:first-child {
+  border-right: 2px solid #d6c08d;
+}
+.certificate-box {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  grid-template-columns: 1fr 1fr;
+  padding-right: 12px;
+}
+.certificate-img {
+  width: 90%;
+  margin-bottom: 24px;
+}
+.certificate-text {
+  justify-self: center;
+
+  align-self: start;
+}
+.certificate-text-title {
+}
+.certificate-text-grey {
+  color: #868e96;
+}
+/* Dự án */
+.containter-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  line-height: 1.7;
+  gap: 20px;
+}
+.project-img {
+  width: 100%;
+}
+.project-box {
+  color: #495057;
+}
+.border {
+  border: 1px solid #adb5bd;
+}
+.project-text-title {
+  border: 1px solid #adb5bd;
+  padding: 24px 12px;
+  margin-bottom: 0;
+  color: black;
+}
+.project-info {
+  display: flex;
+  border: 1px solid #adb5bd;
+  padding: 12px 6px;
+  align-items: center;
+  gap: 2px;
+}
+.border {
+  border: 1px solid #adb5bd;
+}
+table,
+th,
+tr,
+td {
+  border: 1px solid #adb5bd;
+  border-collapse: collapse;
+}
+td {
+  padding: 4px 12px;
+}
+.project-info-year {
+  display: inline-block;
+  background-color: #199cdb;
+  color: #ffffff;
+  padding: 2px 6px;
+  border: 2px solid #199cdb;
+  border-radius: 30%;
+}
+.project-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.project-info-company {
+  /* display: inline-block; */
+}
+.project-info-place {
+  /* display: inline-block; */
+}
+.table-flex {
+  display: flex;
+}
+/* lien he */
+.contact {
+  display: inline-block;
+  justify-items: center;
+}
+.contact-list {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.contact-text {
+  color: #adb5bd;
+}
+.icon-contact {
+  color: white;
+
+  display: inline-block;
+  background-color: #199cdb;
+  padding: 5px 6px;
+
+  border-radius: 50%;
+}
+.footer-container {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.footer-link {
+  width: 25%;
+  height: 25%;
+}

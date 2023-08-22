@@ -1,0 +1,22 @@
+@media (max-width: 500px) {
+  .container-nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  /* chinh hinh anh */
+  .project-img {
+    width: 500px;
+    max-height: auto;
+  }
+  .certificate-img {
+    width: 25%;
+    max-height: auto;
+  }
+  .contact {
+    width: 10%;
+    height: 25%;
+  }
+}

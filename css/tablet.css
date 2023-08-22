@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+  Section > .container {
+    padding: 16px 0;
+    /* margin: auto 0; */
+  }
+  .banner-img {
+    width: auto;
+    margin-left: auto;
+    margin-left: auto;
+    display: block;
+    height: 520px;
+  }
+  /* Chinh lai Nav bar, xoa phan giua */
+
+  .nav-between-name,
+  .nav-between-title {
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-between {
+    padding: 0;
+    margin: 0;
+  }
+  /* Chinh About */
+  .container-personal {
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    justify-items: center;
+    gap: 15px;
+  }
+  .target {
+    /* display: grid;
+    grid-column: 1 /2; */
+    width: 250px;
+
+    justify-self: center;
+  }
+
+  .personal-info {
+    justify-self: center;
+    width: 250px;
+  }
+  /* chinh hinh anh */
+  .project-img {
+    width: 70%px;
+    max-height: auto;
+  }
+  .certificate-img {
+    width: 50%;
+    max-height: auto;
+  }
+}
